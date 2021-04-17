@@ -1,12 +1,12 @@
 import React from 'react';
-import { BsSun, BsMoon, BsHeartFill } from 'react-icons/bs';
-import Text from '../../common/text/Text';
-import { IconButton } from '@material-ui/core/';
-import Row from '../../common/row/Row';
 import Col from '../../common/col/Col';
+import Row from '../../common/row/Row';
+import Text from '../../common/text/Text';
 import date from '../../../utils/date';
-import { handleFavorite } from '../../../redux/weather/weatherSlice';
 import { useDispatch } from 'react-redux';
+import { handleFavorite } from '../../../redux/weather/weatherSlice';
+import { BsSun, BsMoon, BsHeartFill } from 'react-icons/bs';
+import { IconButton } from '@material-ui/core/';
 
 const Head = ({ current, favorites }) => {
   const dispatch = useDispatch();
@@ -52,9 +52,3 @@ const Head = ({ current, favorites }) => {
 };
 
 export default Head;
-
-// !favorites.some(
-//   (fav) => fav.location.Key === current.location.Key
-// )
-//   ? "#ccc"
-//   : "red"

@@ -1,13 +1,11 @@
 import React from 'react';
-import Forecast from './board/Forecast';
-import Head from './board/Head';
 import Container from '../common/container/Container';
-
+import Head from './board/Head';
+import Forecast from './board/Forecast';
 import Search from './search/Search';
-import { useSelector } from 'react-redux';
-
-import { BiSad } from 'react-icons/bi';
 import Spinner from '../common/Spinner/Spinner';
+import { useSelector } from 'react-redux';
+import { BiSad } from 'react-icons/bi';
 
 const Main = () => {
   const { current, loading, error, favorites } = useSelector((state) => state.weather);
