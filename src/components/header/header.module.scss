@@ -1,0 +1,14 @@
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.link {
+    color: #9a58b2;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 15px;
+}
