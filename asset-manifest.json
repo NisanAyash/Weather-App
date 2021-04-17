@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nisan-ayash-14-4-21/static/css/main.f3b5ad4a.chunk.css",
+    "main.js": "/nisan-ayash-14-4-21/static/js/main.b5f4866f.chunk.js",
+    "main.js.map": "/nisan-ayash-14-4-21/static/js/main.b5f4866f.chunk.js.map",
+    "runtime-main.js": "/nisan-ayash-14-4-21/static/js/runtime-main.1cdbfa90.js",
+    "runtime-main.js.map": "/nisan-ayash-14-4-21/static/js/runtime-main.1cdbfa90.js.map",
+    "static/js/2.67406a07.chunk.js": "/nisan-ayash-14-4-21/static/js/2.67406a07.chunk.js",
+    "static/js/2.67406a07.chunk.js.map": "/nisan-ayash-14-4-21/static/js/2.67406a07.chunk.js.map",
+    "index.html": "/nisan-ayash-14-4-21/index.html",
+    "static/css/main.f3b5ad4a.chunk.css.map": "/nisan-ayash-14-4-21/static/css/main.f3b5ad4a.chunk.css.map",
+    "static/js/2.67406a07.chunk.js.LICENSE.txt": "/nisan-ayash-14-4-21/static/js/2.67406a07.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cdbfa90.js",
+    "static/js/2.67406a07.chunk.js",
+    "static/css/main.f3b5ad4a.chunk.css",
+    "static/js/main.b5f4866f.chunk.js"
+  ]
+}
